@@ -1,0 +1,11 @@
+jobs:
+  createSite:
+    enabled: true
+    siteName: "localhost"
+    adminPassword: "secret"
+
+persistence:
+  worker:
+    storageClass: nfs
+  logs:
+    enabled: false
